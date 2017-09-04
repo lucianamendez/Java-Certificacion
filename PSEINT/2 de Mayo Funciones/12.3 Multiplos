@@ -1,0 +1,32 @@
+//Ejercicio de repaso propuesto 12.3: Crea un programa que pida dos número enteros al usuario y diga si alguno de ellos es múltiplo del otro. 
+//Crea una función EsMultiplo que te ayude a que el proceso principal sea legible.
+
+Algoritmo Multiplos
+	
+Definir Num1, Num2 como entero
+	
+Escribir "Ingrese un numero entero"
+Leer Num1
+Escribir "Ingrese otro numero entero"
+Leer Num2
+
+EsMultiplo(Num1,Num2)
+	
+FinAlgoritmo
+
+
+Funcion EsMultiplo(Num1,Num2)
+	Si Num1>=Num2 Entonces
+		Si(Num1 MOD Num2)=0 Entonces
+			Escribir Num1 " es multiplo de ",Num2
+			Sino Escribir "Ninguno de los numeros es multiplo del otro."
+		FinSi
+	Sino 
+		Si (Num2 MOD Num1)=0 Entonces
+			Escribir Num2 " es multiplo de ", Num1
+			Sino Escribir "Ninguno de los numeros es multiplo del otro."
+		FinSi
+	FinSi
+
+	
+FinFuncion

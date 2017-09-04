@@ -1,0 +1,20 @@
+//12.7: Crea una función Cubo, que reciba un número y lo devuelva elevado al cubo.
+
+
+Algoritmo FuncionCubo
+	
+	Definir Num como entero
+	
+		Escribir "Ingrese un numero para elevarlo al cubo"
+		Leer Num
+		Cubo(Num)
+	
+FinAlgoritmo
+
+
+
+Funcion Cubo(Num)
+	Resultado=Num^3	
+	Escribir Num, " elevado al cubo es ",Resultado
+FinFuncion
+	

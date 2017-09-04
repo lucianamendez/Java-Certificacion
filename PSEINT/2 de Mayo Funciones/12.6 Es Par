@@ -1,0 +1,22 @@
+//12.6: Crea una función EsPar que devuelva el valor lógico "verdadero" o "falso"
+//según si el número que se indique como parámetro es par o no lo es.
+
+Algoritmo NumeroPar
+	
+	Definir Num Como Entero
+	
+		Escribir "Ingrese un numero"
+		Leer Num
+		EsPar(Num)
+FinAlgoritmo
+
+
+Funcion EsPar(Num)
+	
+		Si Num es par Entonces 
+			Escribir"El numero ", Num," es par"
+		Sino Escribir"El numero ", Num," es impar"
+		FinSi
+	
+FinFuncion
+	

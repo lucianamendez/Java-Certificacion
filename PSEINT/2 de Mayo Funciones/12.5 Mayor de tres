@@ -1,0 +1,31 @@
+//12.5: Crea una función MayorDeTres, que reciba tres números enteros y devuelva el valor del mayor de ellos.
+//Por ejemplo, para los números 5, 7 y 5, devolvería el valor 7.
+Algoritmo MayorNumero
+	
+	
+	Escribir "Ingrese un numero entero"
+	Leer Num1
+	Escribir "Ingrese un numero entero"
+	Leer Num2
+	Escribir "Ingrese un numero entero"
+	Leer Num3
+	MayorDeTres(Num1,Num2,Num3)
+	
+	
+	
+FinAlgoritmo
+
+Funcion MayorDeTres(Num1,Num2,Num3)
+	
+	Si Num1<>Num2 y Num1<>Num3 Entonces 		
+		Si Num1>=Num2 Y Num1>=Num3 Entonces Escribir "El numero mayor es ",Num1
+		FinSi
+		Si Num2>=Num1 Y Num2>=Num3 Entonces Escribir "El numero mayor es ",Num2
+		FinSi
+		Si Num3>=Num1 Y Num3>=Num2 Entonces Escribir "El numero mayor es ",Num3
+		FinSi
+	Sino Escribir "El numero mayor es ",Num1
+	FinSi
+
+FinFuncion
+	

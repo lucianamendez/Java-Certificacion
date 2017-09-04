@@ -1,0 +1,21 @@
+// 12.4: Crea un procedimiento EscribirEspaciado, que reciba como parámetro un texto y lo escriba con un espacio adicional tras cada letra.
+//Por ejemplo, "Hola, tú" se escribiría "H o l a , t ú ".
+
+Algoritmo EspaciadoLetras
+	
+	Escribir "Escriba un texto"
+	Leer Texto
+	EscribirEspaciado(Texto)
+	
+FinAlgoritmo
+
+
+Funcion EscribirEspaciado(Texto)
+	
+	Para n <- 1 Hasta Longitud(texto) Hacer
+        Escribir Sin Saltar Subcadena(texto, n, n)
+        Escribir Sin Saltar " "
+    FinPara
+	
+	
+FinFuncion

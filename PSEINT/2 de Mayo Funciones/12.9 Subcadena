@@ -1,0 +1,47 @@
+//12.9: Crea una función Contiene, que reciba una cadena y una (posible) subcadena, y devuelva "verdadero" o "falso", 
+//según si la primera contiene a la segunda (como "Nacho" contiene "ac") o no la contiene, (como "Aurora" no contiene "sol").
+
+
+
+Algoritmo FuncionContiene
+	
+	Escribir "Escriba una cadena de texto"
+	Leer Texto
+	Escribir "Que subcadena desea verificar que contiene?"
+	Leer SubTexto
+	Definir Coincide como Logico
+	Contiene(Texto,Subtexto)
+	
+FinAlgoritmo
+
+Funcion Contiene(Texto,SubTexto)
+	
+	c<-Longitud(SubTexto)
+		Para x<- 1 hasta Longitud(Texto) Hacer
+			Para j<- 1 hasta Longitud(SubTexto) Hacer				
+				Si subcadena(Texto,x,x+c)=Subcadena(SubTexto,a,a+c) Entonces
+					Coincide=1
+					
+				FinSi				
+			FinPara
+		FinPara
+			
+
+
+
+		Si Coincide=1 Entonces
+			Escribir "Subcadena ",SubTexto," coincide"
+		FinSi
+	
+	
+	
+FinFuncion
+
+	
+
+
+
+
+	
+	
+	

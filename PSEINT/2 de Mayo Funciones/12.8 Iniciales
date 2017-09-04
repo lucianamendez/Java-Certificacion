@@ -1,0 +1,37 @@
+//12.8: Crea una función Iniciales, que devuelva una cadena formada por las iniciales de la frase que se indique como parámetro
+//(primera letra y la letra que haya tras cada espacio; por ejemplo, para "Nacho Cabanes" devolvería "NC").
+
+
+
+Algoritmo InicialesNombre
+	
+	Definir Nombre, PrimerInicial, Espacio, SegundaInicial Como Caracter
+	
+	Escribir "Ingrese su nombre y apellido"
+	
+	Leer Nombre
+	Iniciales(Nombre)
+	
+	
+FinAlgoritmo
+
+
+
+
+Funcion Iniciales(Nombre)
+	
+		PrimeraInicial=Subcadena(Nombre,1,1)
+		Espacio=" "
+		
+		Para a<-1 hasta Longitud(Nombre) Hacer
+			Para b<-1 hasta Longitud(Espacio) Hacer							
+				Si Subcadena(Nombre,a,a)=Subcadena(Espacio,b,b) Entonces 
+				SegundaInicial=SubCadena(Nombre,a+1,a+1)				
+				Escribir "Las iniciales son :",Mayusculas(PrimeraInicial),Mayusculas(SegundaInicial)		
+				FinSi
+			FinPara		
+		FinPara
+    	
+	
+FinFuncion
+	
