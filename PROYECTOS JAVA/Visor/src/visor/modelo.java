@@ -79,7 +79,7 @@ public class modelo extends javax.swing.JFrame {
         getContentPane().add(contenedor, new org.netbeans.lib.awtextra.AbsoluteConstraints(120, 30, -1, -1));
 
         fondo.setIcon(new javax.swing.ImageIcon(getClass().getResource("/visor/imagenes/fondo.jpg"))); // NOI18N
-        getContentPane().add(fondo, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, -1, 471));
+        getContentPane().add(fondo, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, -30, -1, 471));
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
